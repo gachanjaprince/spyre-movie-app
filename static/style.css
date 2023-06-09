@@ -1,3 +1,55 @@
+/* BOX MODEL HACK */
+* {
+    box-sizing:border-box;
+}
+
+/* Clear Fix Hack */
+.clearfix:after {
+    content:".";
+    display:block;
+    clear:both;
+    visibility:hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+    clear:both;
+}
+
+/*********** LAYOUT ************/
+body {
+    text-align: center;
+}
 main {
-    padding: 5px
+    padding-top: 17.5px;
+}
+h1 {
+    margin-bottom: 12.5px;
+}
+h3 {
+    margin-bottom: 5px;
+}
+ul {
+    margin-top: 7.5px;
+}
+#poster {
+    width: 50%;
+    margin: auto;
+}
+
+
+/******** SYLE *****************/
+main {
+    text-align: center;
+}
+header {
+    border-bottom: solid 1px rgb(105, 160, 170);
+}
+.cast-list {
+    text-align: center;
+}
+ul {
+    text-align: left;
+    display: inline-block;
 }

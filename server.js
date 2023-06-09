@@ -44,7 +44,7 @@ app.get('/search', async (req, res)=> {
                     }
                 }
             }
-        ]).toArray()
+        ]).limit(10).toArray()
         res.send(result)
     } catch(error) {
         res.status(500).send({message: error.message})
