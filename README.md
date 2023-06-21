@@ -1,11 +1,11 @@
-<!--
+
 <div id="header">
   <h1> Spyre Movie Finder</h1>
   <p> Find your favourite movie by simply entering the title in the search bar and selecting it from a list of relevant titles. The main cast as well as the film poster are returned along with your selected movie title.</p>
   <span font-size="1.65rem"><strong>Live Site:</strong></span><span> SOON... </span>
 </div>
 <div align="center">
-  <img src="" alt="A gif capturing the screen as the user searches for 'Beef' on the website, before scrolling down, exploring the page." width="67.5%"/>
+  <img src="https://github.com/gachanjaprince/spyre-movie-app/assets/129261938/fb79a732-c9b3-4eb5-a760-341a2f0dc6a1" alt="A gif capturing the screen as the user selects the movie titled 'The Face of Another' from the suggestions provided based on the typed in keyword 'another'" width="57.5%"/>
 </div>
 <div>
   <h2>How it's made:</h2>
@@ -26,4 +26,3 @@
   <p><strong>Search Query Optimization</strong> - Utilizing an index to improve search performance, I gained experience in managing and improving search query execution, especially with a large dataset.</p>
   <p><strong><Asynchronous Programming</strong> - More practice with asynch techniques, as I used promises/callbacks in establishing functional interaction between the server and client-side.</p>
 </div>
--->
