@@ -4,7 +4,7 @@ $(document).ready(function () {
     $('#title').autocomplete({
         source: async function(request,response) {
             console.log(request.term)
-            let data= await fetch(`${PORT}/search?query=${request.term}`)
+            let data= await fetch(`https://happy-umbrella-bass.cyclic.app//search?query=${request.term}`)
                     .then(results => results.json())
                     .then(results => results.map(result => {
                         return {
