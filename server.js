@@ -6,7 +6,7 @@ const { response } = require('express')
 const { request } = require('http')
 const { error } = require('console')
 require('dotenv').config()
-const PORT = 8000
+const PORT = 'https://happy-umbrella-bass.cyclic.app' || 8000
 
 let db,
     dbConnectionStr = process.env.DB_STRING,
@@ -64,6 +64,6 @@ app.get("/get/:id", async (request, response) => {
 })
 
 
-app.listen(process.env.PORT || PORT, ()=> {
+app.listen(PORT, ()=> {
     console.log('Server is running!')
 })
