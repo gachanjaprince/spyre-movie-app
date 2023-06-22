@@ -6,7 +6,7 @@ const { response } = require('express')
 const { request } = require('http')
 const { error } = require('console')
 require('dotenv').config()
-const PORT = 'https://happy-umbrella-bass.cyclic.app' || 8000
+const PORT = process.env.PORT || 8000
 
 let db,
     dbConnectionStr = process.env.DB_STRING,
