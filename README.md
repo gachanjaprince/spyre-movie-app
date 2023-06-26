@@ -24,5 +24,5 @@
 <div>
   <h2>Lessons Learned:</h2>
   <p><strong>Search Query Optimization</strong> - Utilizing an index to improve search performance, I gained experience in managing and improving search query execution, especially with a large dataset.</p>
-  <p><strong><Asynchronous Programming</strong> - More practice with asynch techniques, as I used promises/callbacks in establishing functional interaction between the server and client-side.</p>
+  <p><strong>Asynchrounous Programming </strong> - More practice with asynch techniques, as I used promises/callbacks in establishing functional interaction between the server and client-side.</p>
 </div>
